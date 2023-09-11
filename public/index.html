@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="icon" href="<%= BASE_URL %>earth.ico">
+		<title>数字地球</title>
+
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+		</style>
+
+		<link href="Cesium/Widgets/widgets.css" rel="stylesheet" />
+		<script src="config/GlobalConfig.js"></script>
+		<script src="Cesium/Cesium.js"></script>
+
+		<script src="js/sdc/SDCSingleTerrainProvider.js"></script>
+
+		<script src="js/cesium/imagery/TileLonlatsImageryProvider.js"></script>
+		<script src="js/cesium/plugin/viewerCesiumNavigationMixin.js"></script>
+		<script src="js/cesium/primitive/PrimitiveUtil.js"></script>
+		<script src="js/cesium/primitive/PrimitiveTexture.js"></script>
+		<script src="js/cesium/primitive/PrimitiveRectTexture.js"></script>
+		<script src="js/cesium/material/FlowArrowMaterialProperty.js"></script>
+		<script src="js/cesium/material/FlowLineMaterialProperty.js"></script>
+		<script src="js/cesium/material/CircleWaveMaterialProperty.js"></script>
+		<script src="js/cesium/material/LineMaterialProperty.js"></script>
+
+		<script src="js/canvas2image.js"></script>
+		<script src="js/html2canvas.js"></script>
+		<script src="js/wangEditor.min.js"></script>
+
+		<script src="js/plot/jquery-2.1.4.min.js"></script>
+		<script src="js/plot/plotUtil.js"></script>
+		<script src="js/plot/algorithm.js"></script>
+		<script src="js/plot/arrowClass.js"></script>
+		<script src="js/plot/drawPlot.js"></script>
+	</head>
+	<body>
+		<noscript>
+			<strong>We're sorry but
+				<%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to
+				continue.</strong>
+		</noscript>
+		<div id="app"></div>
+		<!-- built files will be auto injected -->
+	</body>
+</html>

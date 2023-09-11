@@ -1,0 +1,152 @@
+/* form表单样式 */
+.el-form-item,
+.el-form-item--mini.el-form-item,
+.el-form-item--small.el-form-item {
+	margin-bottom: 10px;
+}
+
+.el-form-item__label {
+	color: #fff;
+	font-size: 16px;
+}
+
+.el-input__inner {
+	border-radius: 0;
+	padding: 0 10px;
+}
+
+.el-textarea__inner {
+	border-radius: 0;
+}
+
+.el-radio {
+	color: #fff;
+}
+
+.el-checkbox {
+	height: 30px;
+	color: #ffffff;
+}
+.el-checkbox__label{
+	font-size: 16px;
+}
+.el-button {
+	border-radius: 0;
+}
+
+
+/* tab 面板 */
+.el-tabs__item {
+	color: #fff;
+	padding: 0 10px;
+	font-size: 16px;
+}
+
+
+
+.el-collapse-item__header {
+	color: #fff;
+	background-color: transparent;
+}
+
+.el-collapse-item__wrap {
+	background-color: transparent;
+}
+
+.el-collapse-item__content {
+	color: #fff;
+}
+
+
+/* tree树样式 */
+.el-tree {
+	color: #fff;
+	background: transparent;
+}
+
+.el-tree-node__content {
+	height: 35px;
+}
+
+.el-tree-node__content:hover {
+	color: #fff;
+	background-color: #000000aa;
+}
+
+.el-tree-node:focus>.el-tree-node__content {
+	color: #fff;
+	background-color: #000000cc;
+}
+
+.el-tree-node__label {
+	font-size: 16px;
+}
+
+
+
+.el-dialog {
+	background-color: rgba(24, 31, 40, .6);
+}
+
+.el-dialog__title {
+	color: #ffffff;
+}
+
+.el-dialog--center .el-dialog__body {
+	padding: 15px 15px 10px;
+}
+
+.el-dialog__footer {
+	padding: 10px 10px 10px;
+}
+
+
+
+.icon {
+	font-family: "iconfont";
+}
+
+
+/* 自定义全局样式 */
+.wrap {
+	position: absolute;
+	top: 80px;
+	right: 50px;
+	width: 400px;
+	background-color: rgba(24, 31, 40, .6);
+	color: #fff;
+	z-index: 10;
+}
+
+.wrap2 {
+	position: absolute;
+	top: 80px;
+	left: 50px;
+	width: 400px;
+	background-color: rgba(24, 31, 40, .6);
+	color: #fff;
+	z-index: 10;
+}
+
+.wrap-title {
+	min-width: 200px;
+	height: 48px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 10px;
+	border-bottom: 2px solid #409eff;
+}
+
+.wrap-title-text {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.wrap-title-close {
+	cursor: pointer;
+}
+
+.container {
+	padding: 10px;
+}

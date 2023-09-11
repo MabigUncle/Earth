@@ -1,0 +1,124 @@
+[{
+	"id": "1",
+	"label": "图层列表",
+	"children": [{
+		"id": "gd-image",
+		"isLayer": true,
+		"label": "高德卫星影像地图",
+		"layerServiceType": "tms",
+		"tilingScheme": "3857",
+		"tmsLayerService": {
+			"url": "https://webst03.is.autonavi.com/appmaptile?style=6&x={x}&y={y}&z={z}"
+		}
+	}, {
+		"id": "gd-map",
+		"isLayer": true,
+		"label": "高德矢量电子地图",
+		"layerServiceType": "tms",
+		"tilingScheme": "3857",
+		"tmsLayerService": {
+			"url": "https://webrd03.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=7&x={x}&y={y}&z={z}"
+		}
+	}, {
+		"id": "tdt-image",
+		"isLayer": true,
+		"label": "天地图卫星影像地图",
+		"layerServiceType": "wmts",
+		"tilingScheme": "3857",
+		"wmtsLayerService": {
+			"url": "http://t0.tianditu.gov.cn/img_w/wmts?tk=7786923a385369346d56b966bb6ad62f",
+			"layer": "img",
+			"tilingScheme": "3857",
+			"style": "default",
+			"format": "tiles",
+			"tileMatrixSetID": "w"
+		}
+	}, {
+		"id": "tdt-image-label",
+		"isLayer": true,
+		"label": "天地图卫星影像注记地图",
+		"layerServiceType": "wmts",
+		"tilingScheme": "3857",
+		"wmtsLayerService": {
+			"url": "http://t0.tianditu.gov.cn/cia_w/wmts?tk=7786923a385369346d56b966bb6ad62f",
+			"layer": "cia",
+			"tilingScheme": "3857",
+			"style": "default",
+			"format": "tiles",
+			"tileMatrixSetID": "w"
+		}
+	}, {
+		"id": "tdt-map",
+		"isLayer": true,
+		"label": "天地图矢量电子地图",
+		"layerServiceType": "wmts",
+		"tilingScheme": "3857",
+		"wmtsLayerService": {
+			"url": "http://t0.tianditu.gov.cn/vec_w/wmts?tk=7786923a385369346d56b966bb6ad62f",
+			"layer": "vec",
+			"tilingScheme": "3857",
+			"style": "default",
+			"format": "tiles",
+			"tileMatrixSetID": "w"
+		}
+	}, {
+		"id": "tdt-map-label",
+		"isLayer": true,
+		"label": "天地图矢量电子注记地图",
+		"layerServiceType": "wmts",
+		"tilingScheme": "3857",
+		"wmtsLayerService": {
+			"url": "http://t0.tianditu.gov.cn/cva_w/wmts?tk=7786923a385369346d56b966bb6ad62f",
+			"layer": "cva",
+			"tilingScheme": "3857",
+			"style": "default",
+			"format": "tiles",
+			"tileMatrixSetID": "w"
+		}
+	}, {
+		"id": "google-image",
+		"isLayer": true,
+		"label": "谷歌卫星影像地图",
+		"layerServiceType": "tms",
+		"tilingScheme": "3857",
+		"tmsLayerService": {
+			"url": "http://gwxc.shipxy.com/tile.g?z={z}&x={x}&y={y}"
+		}
+	}, {
+		"id": "google-map",
+		"isLayer": true,
+		"label": "谷歌矢量电子地图",
+		"layerServiceType": "tms",
+		"tilingScheme": "3857",
+		"tmsLayerService": {
+			"url": "http://gdtc.shipxy.com/tile.g?l=en&m=d&z={z}&x={x}&y={y}"
+		}
+	}, {
+		"id": "arcgis-image",
+		"isLayer": true,
+		"label": "ArcGIS矢量注记地图",
+		"layerServiceType": "tms",
+		"tilingScheme": "3857",
+		"tmsLayerService": {
+			"url": "https://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+		}
+	}, {
+		"id": "arcgis-map",
+		"isLayer": true,
+		"label": "ArcGIS矢量电子地图",
+		"layerServiceType": "tms",
+		"tilingScheme": "3857",
+		"tmsLayerService": {
+			"url": "https://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}"
+		}
+	}, {
+		"id": "sea-map",
+		"isLayer": true,
+		"label": "海域海图",
+		"layerServiceType": "tms",
+		"tilingScheme": "3857",
+		"tmsLayerService": {
+			"url": "http://m12.shipxy.com/tile.c?l=Na&m=o&x={x}&y={y}&z={z}"
+		}
+	}]
+}]

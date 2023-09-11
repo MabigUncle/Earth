@@ -1,0 +1,18 @@
+1、前端开发人员必须遵循此规范约束进行项目开发
+2、 public/config 存放全局配置文件
+	public/css 存放全局样式文件
+	public/data 存放全局数据文件
+	public/image 存放全局图片文件
+	public/js 存放全局js文件
+3、src/api 存放后端接口API文件
+	src/assert 存放静态资源文件
+	src/Bus 存放vue组件事件传播（勿动）
+	src/components 存放各类组件，按照文件夹分类存放
+	src/directive 存放自定义的vue指令
+	src/filter 存放拦截器文件，例如：axios接口过滤、router路由过滤
+	src/router 存放路由文件
+	src/store 存放vuex变量
+	src/views 存放页面文件
+4、App.vue: 项目根组件
+5、main.js: 项目的入口文件
+6、组件化、编码规范等请参考项目中已有的示例文件
